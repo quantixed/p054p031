@@ -9,10 +9,16 @@ Gabrielle Larocque, Penelope J. La-Borde, Beverley J. Wilson, Daniel J. Moore, N
 
 ## Data
 
--  `cell_shape` IMOD models and corresponding text files (produced by `model2point`) for analysis using [CellShape](https://doi.org/10.5281/zenodo.3931238)
+- `cell_migration` cell track data in excel workbooks or directories of CSV files for analysis using [CellMigration](https://doi.org/10.5281/zenodo.3369643)
+- `cell_shape` IMOD models and corresponding text files (produced by `model2point`) for analysis using [CellShape](https://doi.org/10.5281/zenodo.3931238)
+- `variance` excel workbooks with spatiotemporal data for Rab GTPases and TPD54 mutants.
 
 Data for R plots are in the `R` directory.
 
+
+## Scripts
+
+- `ImageVariance.ipf` a workflow to analyze cropped images for spatiotemporal variance in IgorPro.
 
 
 ## R Code
