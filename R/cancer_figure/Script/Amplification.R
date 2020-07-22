@@ -43,7 +43,7 @@ make_the_plot <- function(df_for_plotting){
     guides(fill = guide_legend(title = "Frequency", reverse = TRUE)) +
     ylim(rev(levels(tpd_df$Cancer))) +
     coord_equal() +
-    scale_fill_gradient(low = "#fee0d2", high = "#de2d26") +
+    scale_fill_distiller(palette = "YlGnBu", direction = 1) +
     labs(x = NULL, y = NULL) +
     theme_minimal(base_size=10) +
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))

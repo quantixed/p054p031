@@ -3,7 +3,7 @@ Code and data for Larocque et al. manuscript `#p054p031`
 
 **Intracellular nanovesicles mediate integrin trafficking during cell migration**
 
-Gabrielle Larocque, Penelope J. La-Borde, Beverley J. Wilson, Daniel J. Moore, Nicholas I. Clarke, Patrick T. Caswell and Stephen J. Royle
+Gabrielle Larocque, Penelope J. La-Borde, Beverley J. Wilson, Nicholas I. Clarke, Daniel J. Moore, Patrick T. Caswell and Stephen J. Royle
 
 *bioRxiv* [to be deposited](https://doi.org/10.1101/X)
 
