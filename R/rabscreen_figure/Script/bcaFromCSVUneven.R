@@ -7,6 +7,8 @@ library(bootstrap)
 # import data
 filename <- file.choose()
 myrawdata <- read.csv(filename, header=TRUE, stringsAsFactors=FALSE)
+myheaders <- names(myrawdata)
+myheaders <- myheaders[2:length(myheaders)]
 # find the mean of the control values (assume it is in 1st column)
 ctrlmean <- mean(myrawdata[,1], na.rm=TRUE)
 # subtract mean from the data
@@ -27,7 +29,7 @@ for (i in 1:cols ){
   bca = bcanon(mydata[[i+1]],10000,mean,alpha=0.975)
   mybcahi[i] <- bca$conf[1,2]
 }
-result <- data.frame(mymeans,mybcalo,mybcahi)
+result <- data.frame(myheaders,mymeans,mybcalo,mybcahi)
 
 # save to Output/Data with same name as input csv
 outputName <- basename(filename)
