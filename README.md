@@ -1,9 +1,9 @@
 # p054p031
 Code and data for Larocque et al. manuscript `#p054p031`
 
-**Intracellular nanovesicles mediate integrin trafficking during cell migration**
+**Intracellular nanovesicles mediate &alpha;5&beta;1 integrin trafficking during cell migration**
 
-Gabrielle Larocque, Penelope J. La-Borde, Beverley J. Wilson, Nicholas I. Clarke, Daniel J. Moore, Patrick T. Caswell and Stephen J. Royle
+Gabrielle Larocque, Daniel J. Moore, Méghane Sittewelle, Cansu Küey, Joseph H.R. Hetmanski, Penelope J. La-Borde, Beverley J. Wilson, Nicholas I. Clarke, Patrick T. Caswell and Stephen J. Royle
 
 *bioRxiv* [doi: 10.1101/2020.08.19.257287](https://doi.org/10.1101/2020.08.19.257287)
 
@@ -18,7 +18,8 @@ Data for R plots are in the `R` directory.
 
 ## Scripts
 
-- `ImageVariance.ipf` a workflow to analyze cropped images for spatiotemporal variance in IgorPro.
+- `ImageVariance.ipf` a workflow to analyze cropped images for spatiotemporal variance in IgorPro
+- `MakeEffectSizeGraph.ipf` simple graphing procedure using R output of estimation statistics e.g. `rabscreen_figure`- `MitoAggregation.ipf` analysis of outputs from the Fiji script `MitoAggregation.ijm` which will extract statistics of mitochondria from cell limages- `ProteomicsProcs.ipf` a workflow used in conjunction with [VolcanoPlot](https://github.com/quantixed/VolcanoPlot)
 
 
 ## R Code
