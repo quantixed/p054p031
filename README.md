@@ -3,9 +3,9 @@ Code and data for Larocque et al. manuscript `#p054p031`
 
 **Intracellular nanovesicles mediate &alpha;5&beta;1 integrin trafficking during cell migration**
 
-Gabrielle Larocque, Daniel J. Moore, Méghane Sittewelle, Cansu Küey, Joseph H.R. Hetmanski, Penelope J. La-Borde, Beverley J. Wilson, Nicholas I. Clarke, Patrick T. Caswell and Stephen J. Royle
+Gabrielle Larocque, Daniel J. Moore, Méghane Sittewelle, Cansu Kuey, Joseph H.R. Hetmanski, Penelope J. La-Borde, Beverley J. Wilson, Nicholas I. Clarke, Patrick T. Caswell and Stephen J. Royle
 
-*bioRxiv* [doi: 10.1101/2020.08.19.257287](https://doi.org/10.1101/2020.08.19.257287)
+*J Cell Biol*, 220: e202009028 [doi: 10.1083/jcb.202009028](https://doi.org/10.1083/jcb.202009028)
 
 ## Data
 
